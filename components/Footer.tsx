@@ -13,24 +13,24 @@ export default function Footer() {
           Replicate,{" "}
         </a>
         <a
-          href="https://upload.io"
-          target="_blank"
-          className="font-bold transition hover:text-black/50"
-        >
-          Upload,{" "}
-        </a>
-        and{" "}
-        <a
           href="https://vercel.com/"
           target="_blank"
           className="font-bold transition hover:text-black/50"
         >
-          Vercel.
+          Vercel,{" "}
+        </a>
+        and{" "}
+        <a
+          href="https://phototool.net"
+          target="_blank"
+          className="font-bold transition hover:text-black/50"
+        >
+          Phototool.net.
         </a>
       </div>
       <div className="flex space-x-4 pb-4 sm:pb-0">
         <Link
-          href="https://twitter.com/nutlope"
+          href="https://twitter.com/Phototool_net"
           className="group"
           aria-label="TaxPal on Twitter"
         >
@@ -42,7 +42,7 @@ export default function Footer() {
           </svg>
         </Link>
         <Link
-          href="https://github.com/Nutlope/restorePhotos"
+          href="https://github.com/jwrossee"
           className="group"
           aria-label="TaxPal on GitHub"
         >
