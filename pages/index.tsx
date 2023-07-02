@@ -52,6 +52,31 @@ const Home: NextPage = () => {
               <div>
                 <h2 className="mb-1 font-medium text-lg">Original Photo</h2>
                 <Image
+                  alt="Original photo of Dad"
+                  src="/Papa.webp"
+                  className="w-96 h-96 rounded-2xl"
+                  width={400}
+                  height={400}
+                />
+              </div>
+              <div className="sm:mt-0 mt-8">
+                <h2 className="mb-1 font-medium text-lg">Restored Photo</h2>
+                <Image
+                  alt="Restored photo of Dad"
+                  width={400}
+                  height={400}
+                  src="/papa-new.webp"
+                  className="w-96 h-96 rounded-2xl sm:mt-0 mt-2"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-col space-y-10 mt-4 mb-16">
+            <div className="flex sm:space-x-2 sm:flex-row flex-col">
+              <div>
+                <h2 className="mb-1 font-medium text-lg">Original Photo</h2>
+                <Image
                   alt="Original photo of Tante Anni"
                   src="/TanteAnni.webp"
                   className="w-96 h-96 rounded-2xl"
@@ -71,6 +96,7 @@ const Home: NextPage = () => {
               </div>
             </div>
           </div>
+
         </div>
       </main>
       <Footer />
