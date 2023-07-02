@@ -8,12 +8,12 @@ module.exports = {
     return [
       {
         source: "/github",
-        destination: "https://github.com/Nutlope/restorePhotos",
+        destination: "https://github.com/jwrossee/newfaceai-phototool",
         permanent: false,
       },
       {
         source: "/deploy",
-        destination: "https://vercel.com/templates/next.js/ai-photo-restorer",
+        destination: "https://vercel.com/jwrossee/newfaceai-phototool",
         permanent: false,
       },
     ];
