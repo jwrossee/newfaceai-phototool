@@ -7,7 +7,7 @@ export default function Header({ photo }: { photo?: string | undefined }) {
       <Link href="/" className="flex space-x-2">
         <Image
           alt="header text"
-          src="/Phototool_net_logo_grey.png"
+          src="/PTNlogoblackbgshadow.png"
           className="sm:w-12 sm:h-12 w-7 h-7"
           width={25}
           height={25}
