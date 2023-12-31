@@ -2,6 +2,9 @@
 
 This project restores old face photos using AI.
 
+## Project Origin
+This application was initially forked from the [restorePhotos] (https://github.com/Nutlope/restorePhotos) project by Nutlope. The original project laid the groundwork for using machine learning models to restore photographs, providing a valuable opportunity for me in learning and growing in the field of AI-powered photo restoration.
+
 ## How it works
 
 It uses an ML model from the Applied Research Center called [GFPGAN](https://github.com/TencentARC/GFPGAN) on [Replicate](https://replicate.com/) to restore face photos. This application gives you the ability to upload any photo, which will send it through this ML Model using a Next.js API route, and return your restored photo.
@@ -50,5 +53,6 @@ This example is powered by the following services:
 
 - [Phototool.net](https://phototool.net)
 - [Replicate](https://replicate.com) (AI API)
+- [Next.js] + [Vercel](https://vercel.com)
 - [Auth.js](https://authjs.dev/) + [Neon](https://neon.tech/) (auth + DB)
 - [Upstash](https://upstash.com/) Redis (rate limiting)
