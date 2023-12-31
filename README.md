@@ -53,6 +53,6 @@ This example is powered by the following services:
 
 - [Phototool.net](https://phototool.net)
 - [Replicate](https://replicate.com) (AI API)
-- [Next.js] + [Vercel](https://vercel.com)
+- [Next.js](https.//nextjs.org) + [Vercel](https://vercel.com)
 - [Auth.js](https://authjs.dev/) + [Neon](https://neon.tech/) (auth + DB)
 - [Upstash](https://upstash.com/) Redis (rate limiting)

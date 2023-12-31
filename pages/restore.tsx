@@ -163,9 +163,7 @@ const Home: NextPage = () => {
             !originalPhoto && (
               <div className="h-[250px] flex flex-col items-center space-y-6 max-w-[670px] -mt-8">
                 <div className="max-w-xl text-gray-600">
-                  Sign in below with Google to create a free account and restore
-                  your photos today. You will be able to restore 5 photos per
-                  day for free.
+                  Sign in below and restore your photos today. You will be able to restore 5 photos per day for free.
                 </div>
                 <button
                   onClick={() => signIn("google")}
@@ -178,6 +176,30 @@ const Home: NextPage = () => {
                     alt="google's logo"
                   />
                   <span>Sign in with Google</span>
+                </button>
+                <button
+                  onClick={() => signIn("github")}
+                  className="bg-gray-200 text-black font-semibold py-3 px-6 rounded-2xl flex items-center space-x-2"
+                >
+                  <Image
+                    src="/github-mark.png"
+                    width={20}
+                    height={20}
+                    alt="GitHub's logo"
+                  />
+                  <span>Sign in with GitHub</span>
+                </button>
+                <button
+                  onClick={() => signIn("twitter")}
+                  className="bg-gray-200 text-black font-semibold py-3 px-6 rounded-2xl flex items-center space-x-2"
+                >
+                  <Image
+                    src="/x-logo-black.png"
+                    width={20}
+                    height={20}
+                    alt="Twitter's logo"
+                  />
+                  <span>Sign in with Twitter</span>
                 </button>
               </div>
             )
