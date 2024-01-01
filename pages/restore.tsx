@@ -201,6 +201,18 @@ const Home: NextPage = () => {
                   />
                   <span>Sign in with Twitter</span>
                 </button>
+                <button
+                  onClick={() => signIn("linkedin")}
+                  className="bg-gray-200 text-black font-semibold py-3 px-6 rounded-2xl flex items-center space-x-2"
+                  >
+                  <Image
+                    src="/In-Blue-96.png"
+                    width={20}
+                    height={20}
+                    alt="LinkedIn's logo"
+                  />
+                  <span>Sign in with LinkedIn</span>
+                </button>
               </div>
             )
           )}
